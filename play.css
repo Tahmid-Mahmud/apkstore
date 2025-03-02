@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.text-primary {
+    color: #ff5f2b !important;
+}
+
+.btn-primary {
+    background: #ff5f2b !important;
+    border-color: #ff5f2b !important;
+    ;
+}
+
+body {
+    margin: 0 0 55px 0;
+    /* font-family: "Open Sans", "Bree Serif"; */
+    font-family: "Bree Serif", serif;
+    /* font-weight: 300; */
+    background: #f9f9f9;
+}
+
+.logo {
+    width: 4.5rem;
+    border-radius: 10px;
+}
+
+.lgb {
+    border-bottom: 0.5px solid grey;
+}
+
+#view div {
+    margin: 15px 12px;
+    padding: 0.5rem;
+    /* border: 0.5px solid red; */
+    cursor: pointer;
+
+}
+
+#view div:hover {
+    background-color: #5f5b5b;
+}
+
+#navbar::before {
+    content: "";
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 60%;
+}
+
+.carousel-item img {
+    width: 60% !important;
+}
+
+#projects {
+    font-size: 0.8rem;
+
+}
+
+#projects .row div img,
+#logo {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    width: 6rem;
+    z-index: -1;
+}
+
+.text-secondary {
+    color: #dddddd !important;
+}
+
+.logo-box img {
+    border-radius: 10px;
+}
+
+#ss,
+.ext {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#ss img {
+    width: 140px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.info {
+    line-height: 0.2rem;
+}
+
+
+.ext i,
+span {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ext i {
+    font-size: 0.8rem;
+}
+
+.ext .icont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+    margin: 10px 0px;
+    padding: 0px 25px;
+    border-right: 1px solid #dddddd;
+}
+
+
+.l {
+    margin-left: 1px !important;
+    padding-left: 1px !important;
+}
+
+.r {
+    margin-right: 0px;
+}
+
+
+.arr:hover {
+    background: #ccc;
+}
+
+.p-1 {
+    margin-bottom: 0.5rem;
+}
+
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#preview {
+    display: block;
+    margin: auto;
+    width: 90vw;
+}
+
+#preview #logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+}
+
+#preview #icon {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-title {
+    color: #0b8856;
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+
+i {
+    font-size: 1.3rem;
+}
+
+i:hover {
+    cursor: pointer;
+}
